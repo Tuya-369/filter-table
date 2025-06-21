@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!DOCTYPE html>
+    <html lang="en">
+    <link rel="stylesheet" href="index.css">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Product List</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 8px;
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="deed">
+        <input type="search" id="myInput" placeholder="text your Product Id">
+        <button onclick="search()" id="myButton">search</button>
+        <h1>Product List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Release Date</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
